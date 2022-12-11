@@ -19,7 +19,7 @@ const About = () => {
           <Avatar src="hfest_avatar_2.jpg" />
         </div>
         <p>
-          Hi, I'm Anurag Hazra, a self-taught passionate FrontEnd developer from
+          Hi, I'm Kyle, a self-taught passionate FrontEnd developer from
           India, currently working at{' '}
           <a className="about__link" href="https://razorpay.com">
             Razorpay
