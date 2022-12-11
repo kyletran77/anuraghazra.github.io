@@ -75,7 +75,7 @@
     "preinstall": "cd plugins/gatsby-plugin-social-banners && npm install",
     "now-build": "npm run build",
     "build": "gatsby build",
-    "develop": "gatsby develop --host=0.0.0.0",
+    "develop": "SET NODE_OPTIONS=--openssl-legacy-provider && gatsby develop --host=0.0.0.0",
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run develop",
     "serve": "gatsby serve --host=0.0.0.0",
